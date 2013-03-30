@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd bin/
+
+java -client -ea                                   \
+    -classpath ".:../lib/*:/usr/share/java/gtk-4.1.jar" \
+    James James$JamesUI.class
